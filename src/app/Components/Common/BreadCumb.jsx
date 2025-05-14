@@ -12,7 +12,7 @@ const BreadCumb = ({Title}) => {
             <div className="main-heading">
               <h1>{Title}</h1>
                 <div className="space16"></div>
-                <span className="span"><Image src="/assets/img/icons/span1.png"  alt="img" width={18} height={16}   /> <Link href="/">Home</Link><span className="arrow"><i className="bi bi-chevron-right"></i></span> {Title}</span>
+                <span className="span"><Image src="/assets/img/logo/logo.png"  alt="img" width={100} height={16}   /> <Link href="/">Home</Link><span className="arrow"><i className="bi bi-chevron-right"></i></span> {Title}</span>
             </div>
           </div>
 

@@ -10,9 +10,9 @@ const Mission1 = () => {
             <div className="heading1">
               <span className="span">
                 <Image
-                  src="/assets/img/icons/span1.png"
+                  src="/assets/img/logo/logo.png"
                   alt="img"
-                  width={18}
+                  width={100}
                   height={16}
                 />
                 Our Mission
@@ -50,30 +50,16 @@ const Mission1 = () => {
 
           <div className="col-lg-6">
             <div className="solution-images">
-              <div className="image1">
-                <Image
-                  src="/assets/img/others/solution-img1.png"
-                  alt="img"
-                  width={178}
-                  height={134}
-                />
-              </div>
+              
               <div className="image2">
                 <Image
-                  src="/assets/img/others/solution-img2.png"
+                  src="/assets/img/work/works.png"
                   alt="img"
                   width={470}
                   height={400}
                 />
               </div>
-              <div className="image3">
-                <Image
-                  src="/assets/img/others/solution-img3.png"
-                  alt="img"
-                  width={178}
-                  height={134}
-                />
-              </div>
+           
             </div>
           </div>
         </div>

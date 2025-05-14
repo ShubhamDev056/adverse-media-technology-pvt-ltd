@@ -3,9 +3,8 @@ import BreadCumb from "@/app/Components/Common/BreadCumb";
 import Cta1 from "@/app/Components/Cta/Cta1";
 import MarqueeText from "@/app/Components/MarqueeText/MarqueeText";
 import Mission1 from "@/app/Components/Mission/Mission1";
-import Vission1 from "@/app/Components/Mission/Vission1";
 import Team2 from "@/app/Components/Team/Team2";
-import Testimonial1 from "@/app/Components/Testimonial/Testimonial1";
+import Testimonial4 from "@/app/Components/Testimonial/Testimonial4";
 import React from "react";
 
 const page = () => {
@@ -14,9 +13,7 @@ const page = () => {
       <BreadCumb Title="About Us"></BreadCumb>
       <MarqueeText></MarqueeText>
       <About6
-        image1="/assets/img/about/about2-img1.png"
-        image2="/assets/img/about/about2-img2.png"
-        image3="/assets/img/about/about2-img3.png"
+        image1="/assets/img/about/aboutus.png"
         experienceNum="25"
         experienceTitle="Years Of <br> Experience"
         subTitle="Our Service"
@@ -28,9 +25,7 @@ const page = () => {
         CounNum2="98%"
       ></About6>
       <Mission1></Mission1>
-      <Vission1></Vission1>
-      <Testimonial1></Testimonial1>
-      <Team2></Team2>
+      <Testimonial4></Testimonial4>
       <Cta1></Cta1>
     </div>
   );

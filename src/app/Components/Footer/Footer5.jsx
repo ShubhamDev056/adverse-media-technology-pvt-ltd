@@ -26,7 +26,6 @@ const Footer5 = () => {
                   needs of businesses like yours.{" "}
                 </p>
               </div>
-             
             </div>
           </div>
 
@@ -36,24 +35,16 @@ const Footer5 = () => {
 
               <ul className="menu-list">
                 <li>
-                  <Link href="/service">
-                    Cloud Computing Solution
-                  </Link>
+                  <Link href="/service">Cloud Computing Solution</Link>
                 </li>
                 <li>
-                  <Link href="/service">
-                    Cybersecurity & Compliance
-                  </Link>
+                  <Link href="/service">Cybersecurity & Compliance</Link>
                 </li>
                 <li>
-                  <Link href="/service">
-                    Software Development
-                  </Link>
+                  <Link href="/service">Software Development</Link>
                 </li>
                 <li>
-                  <Link href="/service">
-                    It Consulting & Support
-                  </Link>
+                  <Link href="/service">It Consulting & Support</Link>
                 </li>
               </ul>
             </div>
@@ -95,7 +86,6 @@ const Footer5 = () => {
                 </div>
               </div> */}
 
-
               <div className="contact-box">
                 <div className="icon">
                   <Image
@@ -106,13 +96,11 @@ const Footer5 = () => {
                   />
                 </div>
                 <div className="pera">
-                  <a href="mailto:admin@Adverse Media.org">
-                    admin@Adverse Media.org
+                  <a href="mailto:adversemedia.hr@gmail.com">
+                    adversemedia.hr@gmail.com
                   </a>
                 </div>
               </div>
-
-              
             </div>
           </div>
         </div>
@@ -125,7 +113,10 @@ const Footer5 = () => {
           <div className="row align-items-center">
             <div className="col-md-12 text-center">
               <div className="coppyright">
-                <p>Copyright @{new Date().getFullYear()} Adverse Media.All Rights Reserved</p>
+                <p>
+                  Copyright @{new Date().getFullYear()} Adverse Media.All Rights
+                  Reserved
+                </p>
               </div>
             </div>
           </div>
