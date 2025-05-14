@@ -22,14 +22,13 @@ const page = () => {
         btnoneurl="/service"
         btntwo="Discover More"
         btntwourl="/service"
-        image1="/assets/img/hero/hero7-image.png"
         shape2="/assets/img/shapes/hero7-shape1.png"
         shape3="/assets/img/shapes/hero7-shape2.png"
         shape4="/assets/img/shapes/hero7-shape3.png"
         shape5="/assets/img/shapes/hero7-shape7.png"
       ></HeroBanner5>
       <About5
-        image1="/assets/img/about/about7-image.png"
+        image1="/assets/img/about/aboutus.png"
         experienceNum="20+"
         experienceTitle="Year Of Experience"
         subTitle="About Us"
@@ -40,17 +39,12 @@ const page = () => {
           "Provide a brief overview of each solution",
           "Present your main solutions/services.",
         ]}
-        btnname="Learn More"
-        btnurl="/about"
       ></About5>
       <Services5></Services5>
       <HowWork4></HowWork4>
       <Skill1></Skill1>
       <Testimonial4></Testimonial4>
-      <Team3></Team3>
       <Faq2></Faq2>
-      <Brand1></Brand1>
-      <Blog5></Blog5>
       <Cta4></Cta4>
     </div>
   );

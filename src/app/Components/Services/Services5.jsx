@@ -33,9 +33,6 @@ const Services5 = () => {
                                     <Link href={item.btnLink} className="learn">Read More <span><i className="bi bi-arrow-right"></i></span></Link>
                                 </div>
                             </div>
-                            <div className="image image-anime">
-                            <Image src={item.image1} alt="img" width={416} height={281}   />
-                            </div>
                         </div>
                     </div>
                     ))}

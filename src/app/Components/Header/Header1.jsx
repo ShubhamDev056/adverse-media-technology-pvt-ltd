@@ -1,8 +1,8 @@
-"use client"
-import { useEffect, useState } from 'react';
-import Nav from './Nav';
-import Link from 'next/link';
-import Image from 'next/image';
+"use client";
+import { useEffect, useState } from "react";
+import Nav from "./Nav";
+import Link from "next/link";
+import Image from "next/image";
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
@@ -12,19 +12,19 @@ export default function Header1({ variant }) {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
       if (currentScrollPos > prevScrollPos) {
-        setIsSticky('cs-gescout_sticky'); // Scrolling down
+        setIsSticky("cs-gescout_sticky"); // Scrolling down
       } else if (currentScrollPos !== 0) {
-        setIsSticky('cs-gescout_show cs-gescout_sticky'); // Scrolling up
+        setIsSticky("cs-gescout_show cs-gescout_sticky"); // Scrolling up
       } else {
         setIsSticky();
       }
       setPrevScrollPos(currentScrollPos); // Update previous scroll position
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll); // Cleanup the event listener
+      window.removeEventListener("scroll", handleScroll); // Cleanup the event listener
     };
   }, [prevScrollPos]);
 
@@ -88,20 +88,6 @@ export default function Header1({ variant }) {
               </div>
               <div className="cs_main_header_right header_right_one">
                 <div className="header1-buttons">
-                  <div className="contact-btn">
-                    <div className="icon">
-                      <Image
-                        src="/assets/img/icons/header1-icon.png"
-                        alt="img"
-                        width={22}
-                        height={22}
-                      />
-                    </div>
-                    <div className="headding">
-                      <p>Make a Call</p>
-                      <a href="tel:124(555)6565">124 (555) 6565</a>
-                    </div>
-                  </div>
                   <div className="button">
                     <Link href="/contact" className="theme-btn1">
                       Get A Quote{" "}

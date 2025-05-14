@@ -3,7 +3,7 @@ import data from '../../Data/home5/counter.json';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const About5 = ({image1,experienceNum,experienceTitle,subTitle,title,content,featurelist,btnname,btnurl}) => {
+const About5 = ({image1,experienceNum,experienceTitle,subTitle,title,content,featurelist}) => {
     return (
         <div className="about7 sp">
             <div className="container">
@@ -35,9 +35,7 @@ const About5 = ({image1,experienceNum,experienceTitle,subTitle,title,content,fea
                                 </ul>
                               </div>
                               <div className="space30"></div>
-                              <div className="button" data-aos="fade-left" data-aos-duration="1200">
-                                <Link className="theme-btn13" href={btnurl}><span className="text">{btnname}</span> <span className="arrows"><span className="arrow1"><i className="bi bi-arrow-right"></i></span><span className="arrow2"><i className="bi bi-arrow-right"></i></span></span></Link>
-                              </div>
+                             
 
                         </div>
                     </div>

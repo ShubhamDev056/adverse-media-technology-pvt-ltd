@@ -16,7 +16,7 @@ const Skill1 = () => {
         <div className="skill7 sp" data-background="/assets/img/bg/skill7-bg.jpg">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-7">
                         <div className="heading6-w">
                         <SectionTitle3
                                 SubTitle="Our Skills"
@@ -37,12 +37,6 @@ const Skill1 = () => {
                                 </div>
                                 ))}
                               </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-6">
-                        <div className="image image-anime" data-aos="zoom-out" data-aos-duration="700">
-                        <Image src="/assets/img/about/skill7-image.png" alt="img" width={606} height={468}   />
                         </div>
                     </div>
                 </div>

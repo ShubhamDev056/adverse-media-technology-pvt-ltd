@@ -1,14 +1,18 @@
 [
   { 
     "title": "IT Consulting",
-    "desc": "80%"
+    "desc": "98%"
   },
   {
     "title": "Cyber Security",
     "desc": "90%"
   },
   {
-    "title": "Cyber Security",
-    "desc": "70%"
+    "title": "Search Engine Optimization",
+    "desc": "95%"
+  },
+  {
+    "title": "Social Media Optimization",
+    "desc": "90%"
   }
 ]

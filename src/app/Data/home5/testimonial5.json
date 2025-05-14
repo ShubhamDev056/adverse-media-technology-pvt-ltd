@@ -1,14 +1,26 @@
 [
   {
     "icon": "/assets/img/testimonial/tes7-smoll-img.png",
-    "subtitle": "Operating Officer",
-    "title": "Shakib Mahmud",
-    "desc": "I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a best greater artist than now. The lovely valley teems with vapor around me, & the meridian sun strikes."
+    "subtitle": "Marketing Lead",
+    "title": "Ariana Bell",
+    "desc": "The energy in our team is unmatched. Every campaign we launch feels like a creative triumph, blending data with instinct to deliver real results."
   },
   {
     "icon": "/assets/img/testimonial/tes7-smoll-img.png",
-    "subtitle": "Operating Officer",
-    "title": "Shakib Mahmud",
-    "desc": "I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a best greater artist than now. The lovely valley teems with vapor around me, & the meridian sun strikes."
+    "subtitle": "Chief Technology Officer",
+    "title": "Liam Patel",
+    "desc": "Innovation isn't just a buzzword here—it's embedded in our culture. I'm constantly inspired by the talent around me and the bold solutions we bring to life."
+  },
+  {
+    "icon": "/assets/img/testimonial/tes7-smoll-img.png",
+    "subtitle": "Customer Success Manager",
+    "title": "Nora Kim",
+    "desc": "Helping clients reach their goals fuels my passion every day. We’re not just providing service—we’re building lasting relationships."
+  },
+  {
+    "icon": "/assets/img/testimonial/tes7-smoll-img.png",
+    "subtitle": "UX Designer",
+    "title": "Jasper Wong",
+    "desc": "Every interface I craft is driven by empathy and creativity. Knowing our designs impact users positively keeps me striving for excellence."
   }
 ]

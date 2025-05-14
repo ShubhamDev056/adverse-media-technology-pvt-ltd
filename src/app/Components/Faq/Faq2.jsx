@@ -26,49 +26,75 @@ const Faq2 = () => {
 
     
     return (
-        <div className="faq7 sp">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6">
-                <div className="heading7">
-
+      <div className="faq7 sp">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="heading7">
                 <SectionTitle3
-                    SubTitle="FAQS"
-                    Title="Frequently Asked <span>Question?</span>"
-                    content="Got questions? We have got answers. Explore our frequently asked questions to learn more about our IT solutions and how they can benefit your business."
+                  SubTitle="FAQS"
+                  Title="Frequently Asked <span>Question?</span>"
+                  content="Got questions? We have got answers. Explore our frequently asked questions to learn more about our IT solutions and how they can benefit your business."
                 ></SectionTitle3>
 
-                  <div className="space10"></div>
-                  <div className="faq-area">
-                    <div className="accordion accordion1" id="accordionExample">
-                    {data.slice(0,4).map((item, index)=>(
-                      <div key={index} className={`accordion-item ${index === openItemIndex ? "active" : "" }`}>
-                        <h2  onClick={() => handleItemClick(index)} className="accordion-header" id="headingOne">
-                          <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          {item.title}
+                <div className="space10"></div>
+                <div className="faq-area">
+                  <div className="accordion accordion1" id="accordionExample">
+                    {data.slice(0, 4).map((item, index) => (
+                      <div
+                        key={index}
+                        className={`accordion-item ${
+                          index === openItemIndex ? "active" : ""
+                        }`}
+                      >
+                        <h2
+                          onClick={() => handleItemClick(index)}
+                          className="accordion-header"
+                          id="headingOne"
+                        >
+                          <button
+                            className="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                          >
+                            {item.title}
                           </button>
                         </h2>
-                        <div ref={accordionContentRef} id="collapseOne" className="accordion-collapse collapse accordion-content" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                          <div className="accordion-body">
-                          {item.desc}
-                          </div>
+                        <div
+                          ref={accordionContentRef}
+                          id="collapseOne"
+                          className="accordion-collapse collapse accordion-content"
+                          aria-labelledby="headingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div className="accordion-body">{item.desc}</div>
                         </div>
                       </div>
-                        ))}
-
-                    </div>
+                    ))}
                   </div>
-
                 </div>
               </div>
-              <div className="col-lg-6">
-                <div className="faq-image image-anime" data-aos="zoom-out" data-aos-duration="800">
-                <Image src="/assets/img/others/faq6-img.png" alt="img" width={606} height={595}   />
-                </div>
+            </div>
+            <div className="col-lg-6">
+              <div
+                className="faq-image image-anime"
+                data-aos="zoom-out"
+                data-aos-duration="800"
+              >
+                <Image
+                  src="/assets/img/others/ask-questions.png"
+                  alt="img"
+                  width={606}
+                  height={595}
+                />
               </div>
             </div>
           </div>
         </div>
+      </div>
     );
 };
 
